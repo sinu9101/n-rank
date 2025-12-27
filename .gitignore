@@ -1,0 +1,58 @@
+# API 키 및 보안 관련 파일
+.env
+.env.local
+.env.*.local
+api_config.json
+*.key
+*.pem
+*.p12
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.temp
+
+# 엑셀 파일 (선택사항 - 필요시 주석 해제)
+# *.xlsx
+# *.xls
+
+# 순위 추적 데이터 (선택사항 - 필요시 주석 해제)
+# rank_tracking.json
+

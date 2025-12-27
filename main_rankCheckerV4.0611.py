@@ -29,12 +29,12 @@ plt.rcParams['axes.unicode_minus'] = False  # 마이너스 기호 깨짐 방지
 from PySide6.QtCore import Qt, QThread, Signal, QTimer
 from PySide6.QtGui import QFont, QKeyEvent, QIcon, QColor
 
-# API 키 설정 (기본값)
-client_id = "xNPK_qEASZYPgH_IZeHP"
-client_secret = "1teZWcWSTD"
-CUSTOMER_ID = "2810443"
-ACCESS_LICENSE = "0100000000c6bd2eff31c8879d3f598a846245cc71f8aa01915478a761e1edcac293fa9bef"
-SECRET_KEY = "AQAAAADGvS7/MciHnT9ZioRiRcxxSVd5m+fGaiMV+2vlz+ZzLg=="
+# API 키 설정 (기본값 - 사용자가 직접 입력)
+client_id = ""
+client_secret = ""
+CUSTOMER_ID = ""
+ACCESS_LICENSE = ""
+SECRET_KEY = ""
 
 # API 키 저장 파일
 API_CONFIG_FILE = "api_config.json"
