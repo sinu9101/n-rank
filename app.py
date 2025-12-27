@@ -524,9 +524,9 @@ with tab2:
                 
                 # 데이터프레임으로 표시
                 df = pd.DataFrame(products)
-                df_display = df[["순위", "상품명", "판매처", "브랜드", "상품타입", "가격", "상품링크"]].copy()
+                df_display = df[["순위", "상품명", "판매처", "브랜드", "카테고리", "가격", "상품링크"]].copy()
                 df_display["가격"] = df_display["가격"].apply(lambda x: f"{x:,}원")
-                df_display.rename(columns={"상품타입": "카테고리", "상품링크": "링크"}, inplace=True)
+                df_display.rename(columns={"상품링크": "링크"}, inplace=True)
                 
                 st.dataframe(df_display, use_container_width=True, height=400)
                 
